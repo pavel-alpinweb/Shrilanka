@@ -1,0 +1,45 @@
+@import (less) "_typography.less";
+
+body,html{
+	height: 100%;
+	padding: 0;
+}
+
+@pg-color:white;
+
+.to_top{
+position:fixed!important;
+top:0;
+z-index:10000;
+background-color: @pg-color;
+width: 100%;
+}
+
+a:focus {
+		outline: none;
+
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+		text-decoration: none;
+}
+
+
+
+// Примеси
+
+//Размер элемента
+.size(@w, @h){
+	width: @w;
+  	height: @h;
+}
+
+//Кнопки
+.button(@p,@bg){
+	padding: @p;
+	background:@bg;
+	line-height: 1em;
+	display: inline-block;
+}
+
+

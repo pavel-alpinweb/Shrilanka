@@ -1,0 +1,95 @@
+/*==========  Desktop First Method  ==========*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .head-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .host-sect,
+  .dom-sect {
+    padding: 0px  15px 104px;
+    overflow: hidden;
+  }
+  .host-sect .container-about,
+  .dom-sect .container-about {
+    width: auto;
+    float: none;
+  }
+  #about p {
+    width: auto;
+  }
+  #features,
+  #clients,
+  #page-footer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #pricing {
+    text-align: center;
+  }
+  .social-icons {
+    text-align: center;
+  }
+  #page-footer .nav-stacked {
+    text-align: center;
+  }
+  #page-footer .nav-stacked li:after {
+    left: 50%;
+    margin-left: -32.5px;
+  }
+  #page-footer .copyright {
+    margin-top: 50px;
+  }
+  .comment img {
+    bottom: -80px;
+  }
+  #pricing .slogan {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1em;
+  }
+  #pricing .remark {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1em;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar > .container-fluid .navbar-brand,
+  .navbar > .container .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+  #page-header {
+    position: static!important;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    width: auto;
+  }
+  .navbar > .container-fluid .navbar-brand,
+  .navbar > .container .navbar-brand {
+    width: auto;
+  }
+  .navbar-toggle .icon-bar {
+    background: #ffe13e;
+  }
+}
+
